@@ -1,0 +1,19 @@
+# Virtual Environments
+dbt-env/
+venv/
+env/
+
+# Airflow specific
+logs/
+airflow-webserver.pid
+airflow.cfg  # (Only ignore if it contains real passwords/secrets. If it's a template, it's okay to push)
+
+# Data
+data/  # (Usually, you don't commit raw data files, especially if they are large)
+
+# IDE settings
+.vscode/
+
+# OS generated files
+.DS_Store
+__pycache__/
